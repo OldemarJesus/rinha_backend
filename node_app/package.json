@@ -1,0 +1,45 @@
+{
+   "name": "rinha_de_backend_2023_q3",
+   "version": "1.0.0",
+   "description": "Projeto de rest api que lida com grande carga de registro de CI's",
+   "main": "index.js",
+   "license": "AGPL-version-3.0",
+   "private": false,
+   "engines": {
+      "node": ">= 14.0.0",
+      "npm": ">= 6.0.0"
+   },
+   "homepage": "",
+   "repository": {
+      "type": "git",
+      "url": ""
+   },
+   "bugs": "",
+   "keywords": [],
+   "author": {
+      "name": "Oldemar Jesus Gonçalves",
+      "email": "oldemego@gmail.com",
+      "url": "https://github.com/OldemarJesus"
+   },
+   "contributors": [],
+   "scripts": {
+      "dev": "nodemon",
+      "test": "",
+      "build": "tsc",
+      "start": "node dist/server.js",
+      "typeorm": "typeorm-ts-node-commonjs"
+   },
+   "devDependencies": {
+      "@types/express": "^4.17.21",
+      "@types/node": "^16.11.10",
+      "nodemon": "^3.0.2",
+      "ts-node": "10.7.0",
+      "typescript": "4.5.2"
+   },
+   "dependencies": {
+      "express": "^4.18.2",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.17"
+   }
+}

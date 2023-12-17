@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "target": "es2020",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "sourceRoot": "src/**/*.ts",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "lib": [
+        "es2015"
+    ],
+    "include": ["/**/*.ts"],
+    "exclude": ["node_modules"]
+}
